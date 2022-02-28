@@ -1,0 +1,56 @@
+# //  ModelSim SE-64 2021.3 Jul 13 2021 Linux 5.4.0-100-generic
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do top.do
+# Model Technology ModelSim SE-64 vlog 2021.3 Compiler 2021.07 Jul 13 2021
+# Start time: 14:45:01 on Feb 28,2022
+# vlog -reportprogress 300 comparator.sv counter.sv flopenr.sv sdes.sv control.sv top.sv tb.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module feistel
+# -- Compiling module S0_Box
+# -- Compiling module S1_Box
+# -- Compiling module SDES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 14:45:01 on Feb 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 14:45:01 on Feb 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "control(fast)".
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.SDES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.feistel(fast)
+# Loading work.S0_Box(fast)
+# Loading work.S1_Box(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# Loading work.flopenr(fast__1)
+# .main_pane.list.interior.cs.body
+# .main_pane.wave.interior.cs.body.pw.wf
+# End time: 14:45:12 on Feb 28,2022, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

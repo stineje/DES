@@ -1,0 +1,170 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jstine/DES/S-DES/SV
+T_opt
+Z1 !s110 1646080996
+V^3`]_YZc8S0B6QWboz7C[2
+04 2 4 work tb fast 0
+=1-04d4c455214a-621d33e4-a2e4c-13e839
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.3;73
+vfeistel
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 SGcAXYL?CD3iK1]eR=L2G1
+ILLU^dkUmjdkl`Xi8UIiAY0
+S1
+R0
+Z4 w1646080811
+Z5 8sdes.sv
+Z6 Fsdes.sv
+!i122 0
+L0 33 29
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.3;73
+r1
+!s85 0
+31
+Z9 !s108 1646080996.000000
+Z10 !s107 test_sdes.sv|sdes.sv|
+Z11 !s90 sdes.sv|test_sdes.sv|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vGenerateKeys
+R3
+R1
+!i10b 1
+!s100 ERA2zgim0O@_n;C:k<^=o1
+I97YncjQn<;2f[l@QSkUCE0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 9 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@generate@keys
+vS0_Box
+R3
+R1
+!i10b 1
+!s100 j1hC5TNdlD_8A=[aDAXDO2
+I75nUM5EV9AYTG@zDl5o^l1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 63 29
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@s0_@box
+vS1_Box
+R3
+R1
+!i10b 1
+!s100 C4:28IKbFEBVeP0Pf<^9?0
+IMjVRR`R8=gTez><ohGMVE0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 93 29
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@s1_@box
+vSDES
+R3
+R1
+!i10b 1
+!s100 MO>>XV7diUn<Wf_YR>=bi2
+IUS95lcCPoZPHJE:IEmmP10
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 123 38
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+n@s@d@e@s
+vtb
+R3
+R1
+!i10b 1
+!s100 PiiUDVOHbzEE4Zl2HaN8M1
+I[;f[M919Jdj4VPV<5WB6o3
+S1
+R0
+w1646080990
+8test_sdes.sv
+Ftest_sdes.sv
+!i122 0
+L0 2 64
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
