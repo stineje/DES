@@ -13,7 +13,7 @@ The laboraty deals with implementing either S-DES or DES and then the
 Project involves cracking the key given the plaintext and ciphertext.
 The S-DES contains the cracker and multiple keys may work given a
 known ciphertext and plaintext.  The FSM is designed to continue
-checking for the eky even after a hit although the original FSM
+checking for the key even after a hit although the original FSM
 discussed within the class stops after it finds key.  The main S-DES
 and DES unit is designed as a parallel unit (i.e., using combinational
 logic) but could be designed with pipelining in mind.  
