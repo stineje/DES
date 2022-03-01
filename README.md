@@ -5,7 +5,9 @@ james.stine@okstate.edu 28 February 2022
 
 This has two projects completed in ECEN 3233 Digital Logic Design at
 Oklahoma State University.  Some of the data is not complete as
-students are working on it.
+within the DES directory as students are working on it.  The S-DES is
+complete as it was utilized during the Fall 2021 semester.  The DES
+idea is used during the Spring 2022 semester.
 
 The laboraty deals with implementing either S-DES or DES and then the
 Project involves cracking the key given the plaintext and ciphertext.
