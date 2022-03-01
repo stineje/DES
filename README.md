@@ -7,4 +7,18 @@ This has two projects completed in ECEN 3233 Digital Logic Design at
 Oklahoma State University.  Some of the data is not complete as
 students are working on it.
 
+The laboraty deals with implementing either S-DES or DES and then the
+Project involves cracking the key given the plaintext and ciphertext.
+The S-DES contains the cracker and multiple keys may work given a
+known ciphertext and plaintext.  The FSM is designed to continue
+checking for the eky even after a hit although the original FSM
+discussed within the class stops after it finds key.
+
+I am still debating on the size of the key to use so that a team of
+students can crack DES within 5 minutes.  All of the designs are
+implemented on the National Instruments Zynq 7000 enabled Digital
+System Development Board (DSDB) but can easily be ported to any
+implementation (System on Chip or FPGA).
+
+
 
