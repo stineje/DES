@@ -14,7 +14,9 @@ Project involves cracking the key given the plaintext and ciphertext.
 The S-DES contains the cracker and multiple keys may work given a
 known ciphertext and plaintext.  The FSM is designed to continue
 checking for the eky even after a hit although the original FSM
-discussed within the class stops after it finds key.
+discussed within the class stops after it finds key.  The main S-DES
+and DES unit is designed as a parallel unit (i.e., using combinational
+logic) but could be designed with pipelining in mind.  
 
 I am still debating on the size of the key to use so that a team of
 students can crack DES within 5 minutes.  All of the designs are
