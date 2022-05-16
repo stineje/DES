@@ -1,0 +1,78 @@
+# do des.do
+# QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+# Start time: 13:31:54 on Mar 30,2022
+# vlog des.sv tb_des.sv 
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 13:31:55 on Mar 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 13:31:55 on Mar 30,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+#          9 tests completed with          0 errors
+# ** Note: $finish    : tb_des.sv(61)
+#    Time: 85 ns  Iteration: 1  Instance: /stimulus
+# End time: 13:31:56 on Mar 30,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

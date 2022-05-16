@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/media/disk2/Dropbox (VLSIARCH - OSU)/ecen 3233 F21/Labs_F21/Project
+T_opt
+Z1 !s110 1634818547
+VMOQSl5@RC54@^l:?`2>023
+04 2 4 work tb fast 0
+=1-04d4c455214a-617159f3-91662-d7dc9
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7e;67
+vflop
+Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R1
+!i10b 1
+!s100 :?VlN:a<RYH_5`^`KSd5J1
+IUN9D[ZgL7?XBMih1c5[:20
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 counter_sv_unit
+S1
+R0
+Z6 w1634818419
+Z7 8counter.sv
+Z8 Fcounter.sv
+L0 34
+Z9 OL;L;10.7e;67
+r1
+!s85 0
+31
+Z10 !s108 1634818547.000000
+Z11 !s107 tb_count.sv|counter.sv|
+Z12 !s90 -reportprogress|300|counter.sv|tb_count.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb
+R3
+R1
+!i10b 1
+!s100 cU:AgW@[]M5mRNQi5gdXT0
+I7?D^^W3ZF]d@Hn_B0^Y`L2
+R4
+!s105 tb_count_sv_unit
+S1
+R0
+w1634818543
+8tb_count.sv
+Ftb_count.sv
+L0 2
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vUDL_Count
+R3
+R1
+!i10b 1
+!s100 R0k^8M:j7LTP1K1:Z:2;71
+I?VA3Fize1gEQMBgk1Cili2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 2
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+n@u@d@l_@count

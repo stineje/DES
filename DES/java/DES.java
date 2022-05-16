@@ -1,6 +1,8 @@
 import java.util.*;
- 
+
+
 class DES {
+    public static boolean QUIET = false;
     private static class des {
         // CONSTANTS
         // Initial Permutation Table (IP)
@@ -217,12 +219,13 @@ class DES {
             temp = permutation (P, temp);
             // xor
             left = xor (left, temp);
-            System.out.println("Round "
-                               + (num + 1) + " \t"
-                               + right.toUpperCase()
-                               + " " + left.toUpperCase() + " "
-                               + key.toUpperCase());
- 
+	    if(!QUIET)
+		System.out.println("Round "
+				   + (num + 1) + " \t"
+				   + right.toUpperCase()
+				   + " " + left.toUpperCase() + " "
+				   + key.toUpperCase());
+	 
             // swapper
             return right + left;
         }
@@ -234,15 +237,16 @@ class DES {
  
             // initial permutation
             plainText = permutation (IP, plainText);
-            System.out.println(
-                "After initial permutation: "
-                + plainText.toUpperCase());
-            System.out.println(
-                "After splitting: L0="
-                + plainText.substring(0, 8).toUpperCase()
-                + " R0="
-                + plainText.substring(8, 16).toUpperCase() + "\n");
- 
+	    if(!QUIET){
+		System.out.println(
+				   "After initial permutation: "
+				   + plainText.toUpperCase());
+		System.out.println(
+				   "After splitting: L0="
+				   + plainText.substring(0, 8).toUpperCase()
+				   + " R0="
+				   + plainText.substring(8, 16).toUpperCase() + "\n");
+	    } 
             // 16 rounds (L, R, K)
             for (i = 0; i < 16; i++) {
                 plainText = round (plainText, keys[i], i);
@@ -264,15 +268,16 @@ class DES {
  
             // initial permutation
             plainText = permutation (IP, plainText);
-            System.out.println(
-                "After initial permutation: "
-                + plainText.toUpperCase());
-            System.out.println(
-                "After splitting: L0="
-                + plainText.substring(0, 8).toUpperCase()
-                + " R0=" + plainText.substring(8, 16).toUpperCase()
-                + "\n");
- 
+	    if(!QUIET){
+		System.out.println(
+				   "After initial permutation: "
+				   + plainText.toUpperCase());
+		System.out.println(
+				   "After splitting: L0="
+				   + plainText.substring(0, 8).toUpperCase()
+				   + " R0=" + plainText.substring(8, 16).toUpperCase()
+				   + "\n");
+	    } 
             // 16-rounds
             for (i = 15; i > -1; i--) {
                 plainText = round (plainText, keys[i], 15 - i);
@@ -287,25 +292,45 @@ class DES {
     }
     
     public static void main (String args[]) {
+        //String plaintext = "123456ABCD132536";
+        //String key = "AABB09182736CCDD";
+	String plaintext;
+	String key;
+	if(args.length >= 1 && args[0].equals("-q")) {
+	    QUIET = true;
+	    plaintext = args[1];
+	    key = args[2];
+	} else {
+	    QUIET = false;
+	    //key = "0101010d52cdfdd6";
+	    //plaintext = "79fd23c28ccdabdc";
+	    //key = "01010104972962a1";
+	    //plaintext = "91014c83bab607c4";
+	    plaintext = "8097197f641992c2";
+	    key = "010101010101010E";
+	    // Example 1
+	    //plaintext = "123456abcd132536";
+	    //key = "133457799bbcdff1";	
+	    // Example 2
+	    //plaintext = "2579db866c0f528c";
+	    //key = "433e4529462a4a62";
+	    // Example 3
+	    //plaintext = "ed7bc587a26f8c67";
+	    //key = "3b3898371520f75e";
+	    // Example 4
+	    //key = "0E329232EA6D0D73";	
+	    //plaintext = "318101b45f32078d";
+	}
 	
-	// Example 1
-	//String plaintext = "123456abcd132536";
-	//String key = "133457799bbcdff1";	
-	// Example 2
-	String plaintext = "2579db866c0f528c";
-	String key = "433e4529462a4a62";
-	// Example 3
-	//String plaintext = "ed7bc587a26f8c67";
-	//String key = "3b3898371520f75e";
-	// Example 4
-	//String key = "0E329232EA6D0D73";	
-        //String plaintext = "318101b45f32078d";
 	
 	String ciphertext;
 	String decryptedPlaintext;
 
-	System.out.println("Original plain Text:\t" + plaintext.toUpperCase());
-	System.out.println("Key:\t\t\t" + key.toUpperCase() + "\n");	
+	if(!QUIET){	
+	    System.out.println("Original plain Text:\t" + plaintext.toUpperCase());
+	    System.out.println("Key:\t\t\t" + key.toUpperCase() + "\n");
+	}
+
         des cipher = new des();
 	
         // Check for Bad Key (odd parity)
@@ -314,19 +339,31 @@ class DES {
             System.exit(0);
         }
 
-        System.out.println("Encryption:\n");
+	if(!QUIET){
+	    System.out.println("Encryption:\n");
+	}
         ciphertext = cipher.encrypt(plaintext, key);
-        System.out.println(
-            "\nCipher Text: " + ciphertext.toUpperCase() + "\n");
-        System.out.println("Decryption\n");
-        decryptedPlaintext = cipher.decrypt(ciphertext, key);
-        System.out.println(
-            "\nPlain Text: "
-            + decryptedPlaintext.toUpperCase());
-	if (decryptedPlaintext.equalsIgnoreCase(plaintext)) {
-	    System.out.println("Original plain text equals decrypted plain text!\n");
+	if(!QUIET){
+	    System.out.println(
+			       "\nCipher Text: " + ciphertext.toUpperCase() + "\n");
 	} else {
-	    System.out.println("Error: Original plain text does NOT equal decrypted plain text!\n");
+	    System.out.println(ciphertext.toUpperCase());
+	}
+	if(!QUIET){
+	    System.out.println("Decryption\n");
+	}
+        decryptedPlaintext = cipher.decrypt(ciphertext, key);
+	if(!QUIET){
+	    System.out.println(
+			       "\nPlain Text: "
+            + decryptedPlaintext.toUpperCase());
+	}
+	if(!QUIET){
+	    if (decryptedPlaintext.equalsIgnoreCase(plaintext)) {
+		System.out.println("Original plain text equals decrypted plain text!\n");
+	    } else {
+		System.out.println("Error: Original plain text does NOT equal decrypted plain text!\n");
+	    }
 	}
     }
 }

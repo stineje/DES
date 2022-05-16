@@ -1,0 +1,33 @@
+Section 60712 : 0 = 3_14
+Section 60712 : 1 = 2_10
+Section 60712 : 2 = 2_30
+Section 60712 : 3 = 3_1f
+Section 60712 : 4 = 2_ec
+Section 60712 : 5 = 2_b4
+Section 60712 : 6 = 0_8e
+Section 60712 : 7 = 3_2c
+
+Section 60714 : 0 = 0_52
+Section 60714 : 1 = 0_e1
+Section 60714 : 2 = 3_0f
+Section 60714 : 3 = 3_7c
+Section 60714 : 4 = 3_09
+Section 60714 : 5 = 1_08
+Section 60714 : 6 = 1_44
+Section 60714 : 7 = 0_6d
+Section 60714 : 8 = 0_3f
+Section 60714 : 9 = 2_9c
+
+Section 60716 : 0 = 3_15
+Section 60716 : 1 = 1_d1
+Section 60716 : 2 = 2_4f
+Section 60716 : 3 = 1_d0
+Section 60716 : 4 = 1_35
+Section 60716 : 5 = 2_03
+Section 60716 : 6 = 1_6c
+Section 60716 : 7 = 3_6b
+Section 60716 : 8 = 0_07
+Section 60716 : 9 = 0_e3
+Section 60716 : 10 = 3_c9
+Section 60716 : 11 = 3_ba
+

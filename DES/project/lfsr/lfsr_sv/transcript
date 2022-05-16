@@ -1,0 +1,80 @@
+# do lfsr.do
+# Model Technology ModelSim SE-64 vlog 10.7e Compiler 2019.06 May 30 2019
+# Start time: 20:39:32 on Apr 25,2021
+# vlog lfsr.sv tb.sv 
+# -- Compiling module lfsr
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 20:39:32 on Apr 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 20:39:32 on Apr 25,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: lfsr.sv(38): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(39): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(40): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(41): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(42): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(43): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(43): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(44): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(44): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(44): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(45): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(45): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(46): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(46): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(47): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(48): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(48): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(49): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(49): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(50): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(50): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(51): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(51): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(52): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(52): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(52): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(52): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(53): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(53): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(54): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(55): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(56): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(56): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(57): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(57): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(58): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(59): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(59): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(60): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# ** Warning: lfsr.sv(60): (vopt-2576) [BSOB] - Bit-select into 'r_LFSR' is out of bounds.
+# //  ModelSim SE-64 10.7e May 30 2019 Linux 5.4.0-72-generic
+# //
+# //  Copyright 1991-2019 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.lfsr(fast)
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# End time: 20:39:32 on Apr 25,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 40

@@ -1,0 +1,67 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/jstine/lfsr
+T_opt
+Z1 !s110 1619399829
+VW_c]A@^ZK^F0B`g:^jZJU0
+04 8 4 work stimulus fast 0
+=1-04d4c455214a-60861495-b4717-94b0b
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7e;67
+vlfsr
+Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R1
+!i10b 1
+!s100 X>dlJWQJ5zDF]R_gGKkVl3
+I`5g6`bX<]cjTkZD=m3G`V3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s105 lfsr_sv_unit
+S1
+R0
+w1617390294
+8lfsr.sv
+Flfsr.sv
+L0 1
+Z5 OL;L;10.7e;67
+r1
+!s85 0
+31
+Z6 !s108 1619399829.000000
+Z7 !s107 tb.sv|lfsr.sv|
+Z8 !s90 lfsr.sv|tb.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vstimulus
+R3
+R1
+!i10b 1
+!s100 JIV`cfGniJ9ibdJ295gSn3
+IL[F:oZLT8A8NV=J28N3TY3
+R4
+!s105 tb_sv_unit
+S1
+R0
+w1619399763
+8tb.sv
+Ftb.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2

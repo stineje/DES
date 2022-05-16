@@ -1,0 +1,185 @@
+# do top.do
+# QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+# Start time: 16:51:57 on Apr 14,2022
+# vlog comparator.sv counter.sv flopenr.sv des.sv control.sv top.sv tb.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module genParity
+# -- Compiling module genParity8
+# -- Compiling module stimulus
+# 
+# Top level modules:
+# 	stimulus
+# End time: 16:51:57 on Apr 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus 
+# Start time: 16:51:57 on Apr 14,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "control(fast)".
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.stimulus(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.genParity8(fast)
+# Loading work.genParity(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# ** UI-Msg: (vish-4014) No objects found matching '/stimulus/dut/key'.
+# Executing ONERROR command at macro ./wave.do line 9
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# initial read of test vector file.
+# Cracked Key = 01010101010e9e25 ExpectedKey = 01010101010e9e25
+# got it. 91014c83bab607c4, 010101010102fea7, 4f607311c80fc3f1
+# Cracked Key = 010101010102fea7 ExpectedKey = 010101010102fea7
+# got it. 8097197f641992c2, 01010101010b922f, 6660317552096623
+# Cracked Key = 01010101010b922f ExpectedKey = 01010101010b922f
+# got it. 982c756e23eaf758, 010101010101583b, e3461a2fcda1e4fa
+# Cracked Key = 010101010101583b ExpectedKey = 010101010101583b
+# got it. c1949df4aea7571f, 010101010108e50d, f511eee6fe210b5d
+# Cracked Key = 010101010108e50d ExpectedKey = 010101010108e50d
+# got it. 5eb98cbc40c4b52f, 01010101010254fb, 176df843307be1cd
+# Cracked Key = 01010101010254fb ExpectedKey = 01010101010254fb
+# got it. 2ae004fb0e45a831, 01010101010740d6, b4baa118890ed3c6
+# Cracked Key = 01010101010740d6 ExpectedKey = 01010101010740d6
+# got it. a8f4dccb8a0b94c1, 010101010102c48c, a15b5d869fd1516f
+# Cracked Key = 010101010102c48c ExpectedKey = 010101010102c48c
+# got it. ba167a79197a015b, 010101010108403e, 5185f183c1682d4d
+# Cracked Key = 010101010108403e ExpectedKey = 010101010108403e
+# got it. 7ccdfbb35467455e, 0101010101041694, 1fa960c4f2861815
+# Cracked Key = 0101010101041694 ExpectedKey = 0101010101041694
+# got it. c47386dc9d1cd5a8, 010101010102bc6d, b598ef2c153c5d9a
+# Cracked Key = 010101010102bc6d ExpectedKey = 010101010102bc6d
+# got it. 31867345fe6864a4, 010101010101c279, 0f62e0506d5bd080
+# Cracked Key = 010101010101c279 ExpectedKey = 010101010101c279
+# got it. 1332106d519b0b5e, 010101010107ab3d, 554c8c882dff2804
+# Cracked Key = 010101010107ab3d ExpectedKey = 010101010107ab3d
+# got it. 3ec7da83b03b13b5, 010101010104e3f8, b6d3c4c282eb5947
+# Cracked Key = 010101010104e3f8 ExpectedKey = 010101010104e3f8
+# got it. 5768919bce198c04, 010101010107ab89, b09583342a71c661
+# Cracked Key = 010101010107ab89 ExpectedKey = 010101010107ab89
+# got it. f83e8ae5a8cd5e0e, 01010101010e3b08, d42a2b71ea3fea19
+# Cracked Key = 01010101010e3b08 ExpectedKey = 01010101010e3b08
+# got it. 8c2a25fb8a98b09b, 0101010101042f9b, 1bc1997da6e1f152
+# Cracked Key = 0101010101042f9b ExpectedKey = 0101010101042f9b
+# got it. 3be975d661547613, 01010101010b6b26, 5dd1ceec559a184b
+# Cracked Key = 01010101010b6b26 ExpectedKey = 01010101010b6b26
+# got it. dc386252d3a740ec, 01010101010da749, b02a86d944d9e040
+# Cracked Key = 01010101010da749 ExpectedKey = 01010101010da749
+# got it. 2c2f4516bcea4a32, 010101010101a2d9, 3dfba3a3aa146acb
+# Cracked Key = 010101010101a2d9 ExpectedKey = 010101010101a2d9
+# got it. 01ba8058ab7962c4, 010101010104f1d9, 4766678e8694cbcd
+# Cracked Key = 010101010104f1d9 ExpectedKey = 010101010104f1d9
+# got it. 92ae20c4462a375d, 01010101010eb0c7, e38192884e41bda6
+# Cracked Key = 01010101010eb0c7 ExpectedKey = 01010101010eb0c7
+# got it. 76c757623e94e340, 010101010101d51c, aa9c3815cdfc6b3f
+# Cracked Key = 010101010101d51c ExpectedKey = 010101010101d51c
+# got it. fd94cb3d4c8c894c, 01010101010826b6, 1f4378640fdab9bc
+# Cracked Key = 01010101010826b6 ExpectedKey = 01010101010826b6
+# got it. 8391865de94c04f7, 01010101010dd9ab, 8cf00bbecd22aca9
+# Cracked Key = 01010101010dd9ab ExpectedKey = 01010101010dd9ab
+# got it. eae6588c02fe3483, 0101010101020b3e, 94ee647ba676062b
+# Cracked Key = 0101010101020b3e ExpectedKey = 0101010101020b3e
+# got it. 04da627a07c83420, 01010101010df831, f6f48c0f429cd95b
+# Cracked Key = 01010101010df831 ExpectedKey = 01010101010df831
+# got it. b3259ea84f68f408, 01010101010da1fb, 0d2e1abc053e788f
+# Cracked Key = 01010101010da1fb ExpectedKey = 01010101010da1fb
+# got it. 79380257bcd5452c, 01010101010be3bc, 57f252f4c0b27076
+# Cracked Key = 01010101010be3bc ExpectedKey = 01010101010be3bc
+# got it. cd4afbe967f761fd, 01010101010132f4, 5a9ac71e14345971
+# Cracked Key = 01010101010132f4 ExpectedKey = 01010101010132f4
+# got it. b9bc29264f86b557, 010101010107264a, d290424c84396416
+# Cracked Key = 010101010107264a ExpectedKey = 010101010107264a
+# got it. 40314a430b1597d3, 01010101010bf262, 96cf20b7c322d346
+# Cracked Key = 01010101010bf262 ExpectedKey = 01010101010bf262
+# got it. 16290e86c2da316e, 0101010101025b32, 27c429197fe14657
+# Cracked Key = 0101010101025b32 ExpectedKey = 0101010101025b32
+# got it. 1a79e58cf2b0077f, 010101010104aece, 8258022b0845d6fe
+# Cracked Key = 010101010104aece ExpectedKey = 010101010104aece
+# got it. 38d6ea7cd61aad34, 010101010101161f, 535609a9b504cca8
+# Cracked Key = 010101010101161f ExpectedKey = 010101010101161f
+# got it. 292675cef8b64cd9, 0101010101084c9e, 2b1d0a496ca3447b
+# Cracked Key = 0101010101084c9e ExpectedKey = 0101010101084c9e
+# End of test vector file.
+# ** Note: $stop    : tb.sv(61)
+#    Time: 42175295 ns  Iteration: 0  Instance: /stimulus
+# Break in Module stimulus at tb.sv line 61
+# Stopped at tb.sv line 61
+# End time: 17:50:01 on Apr 14,2022, Elapsed time: 0:58:04
+# Errors: 0, Warnings: 0

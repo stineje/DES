@@ -1,0 +1,11 @@
+latex lab1
+dvips -P cmz -t letter -o lab1.ps lab1.dvi
+ps2pdf lab1.ps
+
+
+
+
+
+
+
+

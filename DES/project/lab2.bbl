@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{10.5555/2815529}
+Sarah Harris and David Harris,
+\newblock {\em Digital Design and Computer Architecture: ARM Edition},
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edition,
+  2015.
+
+\bibitem{fips463}
+{National Institute of Standards and Technology},
+\newblock ``{D}ata {E}ncryption {S}tandard {(DES)},'' 1999.
+
+\bibitem{SchaeferEdwardF1996ASDE}
+Edward~F Schaefer,
+\newblock ``A simplified {D}ata {E}ncryption {S}tandard algorithm,''
+\newblock {\em Cryptologia}, vol. 20, no. 1, pp. 77--84, 1996.
+
+\bibitem{10.5555/1721909}
+Christof Paar and Jan Pelzl,
+\newblock {\em Understanding Cryptography: A Textbook for Students and
+  Practitioners},
+\newblock Springer Publishing Company, Incorporated, 1st edition, 2009.
+
+\end{thebibliography}
